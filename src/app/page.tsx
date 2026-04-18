@@ -269,7 +269,7 @@ export default function Home() {
               {/* Photo Collage Stack */}
               <div className="relative aspect-[4/5] rounded-[2.5rem] bg-gray-100 border border-gray-200/50 shadow-2xl overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-t before:from-black/60 before:to-transparent before:z-10">
                 <img 
-                  src="https://images.unsplash.com/photo-1542744094-24638ea0b3b5?q=80&w=2670&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                   alt="Industrial Refrigeration Setup" 
                   className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-[2s] ease-in-out" 
                 />
