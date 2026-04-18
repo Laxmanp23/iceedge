@@ -36,7 +36,7 @@ export default function ContactPage() {
                   id={field.id}
                   type={field.type}
                   placeholder={field.placeholder}
-                  className="w-full rounded-xl border border-blue-200 px-4 py-3 text-sm outline-hidden transition focus:border-blue-400 focus:ring-2 focus:ring-blue-200"
+                  className="w-full rounded-xl border border-blue-200 px-4 py-3 text-sm outline-none transition focus:border-blue-400 focus:ring-2 focus:ring-blue-200"
                   required
                 />
               </div>
@@ -50,7 +50,7 @@ export default function ContactPage() {
                 id="message"
                 rows={5}
                 placeholder="Tell us about your requirement"
-                className="w-full rounded-xl border border-blue-200 px-4 py-3 text-sm outline-hidden transition focus:border-blue-400 focus:ring-2 focus:ring-blue-200"
+                className="w-full rounded-xl border border-blue-200 px-4 py-3 text-sm outline-none transition focus:border-blue-400 focus:ring-2 focus:ring-blue-200"
                 required
               />
             </div>

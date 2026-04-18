@@ -60,7 +60,7 @@ const testimonials = [
 export default function HomePage() {
   return (
     <div className="space-y-20 pb-6">
-      <MotionFade className="rounded-3xl border border-blue-100 bg-linear-to-br from-blue-950 via-blue-800 to-cyan-700 px-6 py-16 text-white shadow-xl sm:px-10">
+      <MotionFade className="rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-950 via-blue-800 to-cyan-700 px-6 py-16 text-white shadow-xl sm:px-10">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-200">IceEdge Refrigeration</p>
         <h1 className="mt-4 max-w-3xl text-3xl font-bold leading-tight sm:text-5xl">
           Advanced Cold Storage & Refrigeration Solutions

@@ -20,7 +20,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-blue-100/70 bg-white/90 backdrop-blur-sm">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <span className="rounded-full bg-linear-to-tr from-cyan-500 to-blue-700 p-2 text-white">
+          <span className="rounded-full bg-gradient-to-tr from-cyan-500 to-blue-700 p-2 text-white">
             <Snowflake className="size-4" />
           </span>
           <span className="text-sm font-semibold tracking-wide text-blue-950 sm:text-base">
